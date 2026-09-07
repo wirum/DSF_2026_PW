@@ -1,84 +1,75 @@
+.uk-logo {
+    display: flex;
+    align-items: center;
+}
+
 .uk-logo img {
     width: 100px;
     height: 45px;
-    margin-left: 10px;
-    margin-top: 7px;
-}
-.titulo {
-    margin-top: 20px;
-    font-weight: bold;
-    color: #eb7077;
-    margin-bottom: 20px;
-}
-.subtitulo {
-    margin-top: 10px;
-    margin:auto;
-    max-width: 900px;
-    font-style: italic;
-    color: #3f3f3f;
-    
-}
-
-.topico {
-    margin-top: 50px;
-    font-weight: bold;
-    color: #eb7077;
-}
-.texto {
-  font-size: 20px !important;
-  max-width: 1000px;
-  margin: auto;
-  color: #3f3f3f;
-}
-
-.slideshow {
-    height: 400px;
-    margin-top: 40px;
-    margin-bottom: 200px;
-}
-
-.slideshow .uk-slideshow-items {
-    height: 400px;
-}
-
-.slideshow img {
-    width: 100%;
-    height: 100%;
+    margin: 0 50px 0 10px;
     object-fit: contain;
 }
 
-.tabela-container {
-    max-width: 900px;
+.navbar {
+    background-color: #1e87f0 !important;
+}
+
+.navbar .uk-navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar .uk-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titulo {
+    margin: 50px 0 30px;
+    font-weight: bold;
+    color: #1e87f0;
+}
+
+.topico {
+    margin: 70px 0 30px;
+    font-weight: bold;
+    color: #1e87f0;
+}
+
+.texto {
+    max-width: 1000px;
     margin: 0 auto;
+    font-size: 20px !important;
+    color: #3f3f3f;
+}
+
+.uk-slider {
+    margin: 30px 0 80px;
+}
+
+.uk-card {
+    margin-bottom: 20px;
 }
 
 .form-container {
     max-width: 600px;
-    margin: 0 auto;
+    margin: 20px auto 70px;
 }
 
-.navbar {
-    background: #212121;
-}
-
-.navbar .uk-navbar-nav > li > a,
-.navbar .uk-navbar-toggle,
-.navbar .uk-logo {
-    color: #fff;
-}
-
-.footer-copyright {
-    padding-top: 20px;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
+.footer {
+    margin-top: 40px;
 }
 
 @media (max-width: 640px) {
-    .slideshow,
-    .slideshow .uk-slideshow-items {
-        height: 260px;
+    .uk-logo img {
+        margin-right: 10px;
     }
 
-    .slideshow {
-        margin-bottom: 100px;
+    .uk-slider {
+        margin-bottom: 50px;
+    }
+
+    .topico {
+        margin-top: 50px;
     }
 }
