@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+
+    <title>Framework Responsivo - Materialize</title>
+</head>
+
+<body>
+
+
+    <nav class="grey darken-4">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo"><img src="assets/images/materialize_logo.svg" alt="Logo da Materialize"></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#what">O que é</a></li>
+                <li><a href="#comparison">Comparação</a></li>
+                <li><a href="#forms">Formulário</a></li>
+            </ul>
+        </div>
+    </nav>
+    <h1 class="center-align titulo">Materialize </h1>
+    <h5 class="center-align subtitulo">Um framework front-end que facilita a criação de interfaces modernas e
+        responsivas utilizando componentes prontos baseados em Material Design.</h5>
+
+
+    <div class="carousel carousel-slider center black-text" id="examples">
+        <div class="carousel-fixed-item center">
+            <p id="meuBotao" class="subtitulo white black-text btn">▶</p>
+        </div>
+        <div class="imagem-carousel carousel-item  white-text" href="#one!">
+            <img src="assets/images/exemplo1.png" alt="Logo da Materialize" class="materialize-logo">
+        </div>
+        <div class="imagem-carousel carousel-item  white-text" href="#two!">
+            <img src="assets/images/exemplo2.png" alt="Logo da Materialize" class="materialize-logo">
+        </div>
+        <div class="imagem-carousel carousel-item  white-text" href="#three!">
+            <img src="assets/images/exemplo3.jpg" alt="Logo da Materialize" class="materialize-logo">
+        </div>
+        <div class="imagem-carousel carousel-item  white-text" href="#four!">
+            <img src="assets/images/exemplo4.jpg" alt="Logo da Materialize" class="materialize-logo">
+        </div>
+    </div>
+
+
+    <h3 class="center-align topico" id="what">O que é o Materialize?</h3>
+    <p class="center-align texto">O Materialize é um framework front-end que facilita a criação de interfaces modernas e
+        responsivas utilizando componentes prontos baseados em Material Design. Ele oferece uma ampla variedade de
+        elementos, como botões, formulários, tabelas, modais e muito mais, permitindo que os desenvolvedores criem
+        aplicativos web visualmente atraentes e funcionais de forma rápida e eficiente.</p>
+
+    <br>
+    <br>
+    <br>
+    <div class="tabela-container" id="comparison">
+        <h3 class="center-align topico" id="components">
+            Comparação com outros frameworks
+        </h3>
+
+        <table class="responsive-table">
+            <thead>
+                <tr>
+                    <th>Framework</th>
+                    <th>Base visual</th>
+                    <th>Componentes</th>
+                    <th>Responsividade</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Materialize</td>
+                    <td>Material Design</td>
+                    <td>Navbar, cards, modal e formulários</td>
+                    <td>Sim</td>
+                </tr>
+
+                <tr>
+                    <td>Bootstrap</td>
+                    <td>Design próprio</td>
+                    <td>Grande variedade de componentes</td>
+                    <td>Sim</td>
+                </tr>
+
+                <tr>
+                    <td>UIkit</td>
+                    <td>Design modular e minimalista</td>
+                    <td>Componentes leves e personalizáveis</td>
+                    <td>Sim</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <div class="container" id="forms">
+
+        <h3 class="center-align topico">Envie seu feedback</h3>
+
+        <form class="form-container">
+
+            <div class="input-field">
+                <input id="nome" type="text" class="validate">
+                <label for="nome">Seu nome</label>
+            </div>
+
+            <div class="input-field">
+                <input id="email" type="email" class="validate">
+                <label for="email">Seu e-mail</label>
+            </div>
+
+            <div class="input-field">
+                <textarea id="mensagem" class="materialize-textarea"></textarea>
+                <label for="mensagem">Sua mensagem</label>
+            </div>
+
+            <div class="center-align">
+                <button class="btn waves-effect waves-light modal-trigger" type="button" data-target="modal1">
+
+                    Enviar
+                    <i class="material-icons right">send</i>
+                </button>
+            </div>
+
+        </form>
+
+    </div>
+
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <h4>Mensagem enviada!</h4>
+            <p>Obrigado por enviar seu feedback.</p>
+        </div>
+
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect btn-flat">
+                Fechar
+            </a>
+        </div>
+    </div>
+
+    <br><br><br><br><br>
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Materialize CSS</h5>
+                    <p class="grey-text text-lighten-4">Feito por Lucas!</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="https://materializecss.com">Materialize</a></li>
+                        <li><a class="grey-text text-lighten-3" href="https://github.com/wirum">Meu GitHub</a></li>
+                        <li><a class="grey-text text-lighten-3" href="https://etecfernandoprestes.cps.sp.gov.br">ETEC Fernando Prestes</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                2026 - Lucas 1DS-FATEC-AMS
+                <a class="grey-text text-lighten-4 right" href="#!"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
