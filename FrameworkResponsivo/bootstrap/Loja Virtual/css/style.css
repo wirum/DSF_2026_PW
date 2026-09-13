@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #FFFFFF;
+    color: #242424;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.titulo-site {
+    text-align: center;
+    margin: 1rem 0 2rem;
+    font-size: clamp(2rem, 5vw, 4rem);
+    font-weight: 700;
+    color: #C8102E;
+}
+
+.card-produto {
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.texto-produto {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #555555;
+    margin-bottom: 0.5rem;
+}
+
+.titulo-produto {
+    font-size: 1.25rem;
+    font-weight: 600;
+    font-style: normal;
+    color: #242424;
+    margin-bottom: 0.5rem;
+}
+
+.foto-produto {
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+    padding: 1rem;
+    background-color: #FFFFFF;
+}
+
+.preco-produto {
+    color: #242424;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.card {
+    background-color: #FFFFFF;
+    color: #242424;
+    border: 1px solid #E5E5E5;
+    border-radius: 8px;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    border-color: #C8102E;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card-group {
+    margin: 1rem auto;
+}
+
+.desconto {
+    background-color: #C8102E !important;
+    color: #FFFFFF;
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+}
+
+.desconto-produto {
+    color: #999999;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.logo {
+    height: 100%;
+    min-width: 120px;
+}

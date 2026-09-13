@@ -1,0 +1,7 @@
+1º Baseado no exemplo 83 do tópico 3 do material de bootstrap,  faça um site que  fale dos estados Brasileiros, sendo que deverá ter um botão de cada estado, e deve exibir dados gerais do estado e foto.
+
+2º Baseado no exemplo 83 do tópico 3 do material de bootstrap,  faça um site que  fale de 6 heróis da marvel ,  sendo que deverá ter um botão de cada herói, e deve exibir dados gerais dele com foto.
+
+3º Baseado no exemplo de carrossel , faça um exemplo com heróis no Exemplo80.html tópico3
+
+4º  Baseado nos exemplos 74 e 75 , faça cards com produtos como se fosse uma loja virtual

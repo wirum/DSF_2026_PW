@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.cabecalho-estado {
+    width: 200px;
+    height: auto;
+    margin-right: 1rem auto;
+    margin-left: 1rem auto;
+    /*display: block;*/
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 5rem;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.card-body {
+    background-color: #1E293B;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+body {
+    background-color: #0F172A;
+    color: #F8FAFC;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.row {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.curiosidade {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-style: italic;
+}
+
+.cabecalho {
+    margin-top: 1rem;
+}
+
+.btn {
+    background-color: #09328b;
+    border-color: #09328b;
+    margin-bottom: 5px;
+}
+
+.btn:hover {
+    background-color: #1d4ed8;
+    border-color: #1d4ed8;
+}
+
+.btn[aria-expanded="true"] {
+    background-color: #1178ff;
+    border-color: #1178ff;
+}
+
+.btn[aria-expanded="false"] {
+    background-color: #09328b;
+    border-color: #09328b;
+}
